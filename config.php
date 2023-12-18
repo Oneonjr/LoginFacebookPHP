@@ -7,9 +7,9 @@
 	use Facebook\Exceptions\FacebookResponseException;
 	use Facebook\Exceptions\FacebookSDKException;
 
-	$appId = '1685805781906061';
-	$appSecret = '0b7966b2c7dc747305edb8012741bfee';
-	$redirectUrl = 'http://localhost/danki/login-facebook/';
+	$appId = 'SEU ID';
+	$appSecret = 'SUA SENHA';
+	$redirectUrl = 'URL PARA DIRECIONAR O LOGIN';
 	$fbPermission = array('email');
 
 	$fb = new Facebook(array(
